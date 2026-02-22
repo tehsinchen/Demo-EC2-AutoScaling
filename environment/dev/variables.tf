@@ -1,7 +1,7 @@
 variable "profile_infra" {
   type        = string
   description = "AWS CLI profile used for provisioning infrastructure"
-  default     = "aws-test"
+  default     = "aws-dev"
 }
 
 variable "identity" {
